@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">data2</string>
+    <string name="btn_text">增加条目</string>
+    <string name="name">姓名</string>
+    <string name="bir">生日</string>
+    <string name="gift">礼物</string>
+</resources>

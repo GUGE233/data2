@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="姓名："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:text="张三"
+        app:layout_constraintStart_toEndOf="@+id/dname1"
+        app:layout_constraintTop_toTopOf="@+id/dname1" />
+
+    <TextView
+        android:id="@+id/dbir1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="25dp"
+        android:text="生日："
+        app:layout_constraintStart_toStartOf="@+id/dname1"
+        app:layout_constraintTop_toBottomOf="@+id/dname1" />
+
+    <EditText
+        android:id="@+id/Edit_dbir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dbir1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dbir1"
+        app:layout_constraintTop_toTopOf="@+id/dbir1" />
+
+    <TextView
+        android:id="@+id/dgift1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:text="礼物："
+        app:layout_constraintStart_toStartOf="@+id/dbir1"
+        app:layout_constraintTop_toBottomOf="@+id/dbir1" />
+
+    <EditText
+        android:id="@+id/Edit_dgift"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dgift1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dgift1"
+        app:layout_constraintTop_toTopOf="@+id/dgift1" />
+
+    <TextView
+        android:id="@+id/dphone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:text="电话："
+        android:textColor="#04C754"
+        app:layout_constraintStart_toStartOf="@+id/dgift1"
+        app:layout_constraintTop_toBottomOf="@+id/dgift1" />
+
+    <TextView
+        android:id="@+id/dphone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:text="12324242331"
+        android:textColor="#04C754"
+        app:layout_constraintStart_toEndOf="@+id/dphone1"
+        app:layout_constraintTop_toTopOf="@+id/dphone1" />
+
+
+</android.support.constraint.ConstraintLayout>
